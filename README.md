@@ -29,5 +29,3 @@ Hands-on Active Directory Group Policy management, security filtering, and troub
 ## Key Takeaways & Troubleshooting
 * **Security Filtering Nuances:** Discovered that user-configuration GPOs targeting a specific user may also require the client computer object to have read permissions within security filtering for policies to process cleanly.
 * **Command Line Tools:** Utilized `gpupdate /force` for forcing policy replication and `gpresult` for auditing applied policies.
-
-* 
