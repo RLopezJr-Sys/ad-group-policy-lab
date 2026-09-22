@@ -115,3 +115,9 @@ Configure and deploy a custom Group Policy Object (GPO) to restrict specific use
 
 * **Issue 2 (GPO Verification)**: Once successfully authenticated, attempted to open the Control Panel as `Mike Smith` to verify policy enforcement.
   * **Resolution/Result**: The system successfully intercepted the request and displayed the "Access Denied" restriction message, confirming the GPO was actively blocking `Control.exe` and `SystemSettings.exe` as configured.
+ 
+## Conclusion & Key Takeaways
+
+This project successfully demonstrated the implementation, deployment, and troubleshooting of a custom Group Policy Object (GPO) in an active Windows Server domain environment. By isolating the policy scope using Security Filtering for `Mike Smith` and enforcing the **"Prohibit access to Control Panel and PC settings"** administrative template, unauthorized user modifications were successfully prevented. 
+
+Additionally, navigating and resolving the real-world RDP authorization hurdles—specifically managing ADUC group memberships and User Rights Assignments for Remote Desktop Services—highlighted critical troubleshooting skills required for enterprise IT administration and desktop support roles. The resulting configuration provides a solid framework for maintaining baseline security compliance across client workstations.
